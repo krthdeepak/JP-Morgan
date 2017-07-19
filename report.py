@@ -6,7 +6,6 @@
 #
 from datetime import datetime
 import xlsxwriter
-from excel_styles import ExcelStyles
 
 workbook = xlsxwriter.Workbook('international_market.xlsx')
 worksheet = workbook.add_worksheet('Trade Rate')
